@@ -19,4 +19,4 @@ Dependencies: You must run npm install playwright before executing the scripts.
 
 Security: We use scryptSync for encryption. By setting a strong, hard-to-guess master password, it becomes extremely difficult to recover the original password, even in the unlikely event that salesforce_bot.js is leaked.
 
-Operational Tip: If the post-login operations (elements to click) are complex, we recommend using Playwright's Codegen feature to record your actions. Using the selectors obtained from Codegen when running generator.js will result in a much smoother setup.
+Operational Tip: If the post-login operations (elements to click) are complex, I recommend using Playwright's Codegen feature to record your actions. Using the selectors obtained from Codegen when running generator.js will result in a much smoother setup.
